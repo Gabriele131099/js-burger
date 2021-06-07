@@ -2,6 +2,7 @@ var createSum = document.getElementById('somma-button');
 var result = document.getElementById('result-sum');
 var codSconto = document.getElementById('sconto')
 var burgerSale = 8
+
 createSum.addEventListener('click', function () {
  var resultSumInt = 0;
  var checkNum = document.getElementsByClassName('check');
