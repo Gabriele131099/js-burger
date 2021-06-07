@@ -14,9 +14,9 @@ createSum.addEventListener('click', function () {
  var scontoCodice = 6;
  var sconto = sale/100 *20
  if (codSconto.value.length===scontoCodice) {
-     result.innerHTML = parseInt(sale - sconto)
+     result.innerHTML = parseInt(sale - sconto).toFixed(2)
     } else {
-    result.innerHTML = sale
+    result.innerHTML = sale.toFixed(2)
  
  }
 
