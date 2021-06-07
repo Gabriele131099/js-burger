@@ -3,12 +3,32 @@ nav
     height: 100px;
     background-color: orange;
 }
-form div 
+ form div , div  
 {
     font-size: 28px;
+    text-align: center;
+}
+form div label{
+    font-size: 20px;
+    color: brown;
 }
 footer
 {
     height: 100px;
     background-color: orchid;
+}
+main section
+{
+   
+}
+svg 
+{
+    width: 70px;
+    padding: 5px;
+}
+#sconto
+{
+    width: 70%;
+    background-color: olive;
+    border: none;
 }

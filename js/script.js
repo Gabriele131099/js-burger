@@ -1,7 +1,7 @@
 var createSum = document.getElementById('somma-button');
 var result = document.getElementById('result-sum');
 var codSconto = document.getElementById('sconto')
-var burgerSale = 8
+var burgerSale = 10
 
 createSum.addEventListener('click', function () {
  var resultSumInt = 0;
