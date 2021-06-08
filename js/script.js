@@ -17,9 +17,9 @@ createSum.addEventListener('click', function () {
      }
  }
  var sale = burgerSale + resultSumInt;
- var scontoCodice = 6;
+ var scontoCodice = "2021covidfree";
  var sconto = sale/100 *25
- if (codSconto.value.length===scontoCodice) {
+ if (codSconto.value=== "2021covidfree") {
      result.innerHTML = parseInt(sale - sconto).toFixed(2)
     } else {
     result.innerHTML = sale.toFixed(2)

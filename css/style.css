@@ -1,14 +1,20 @@
 nav
 {
     height: 100px;
-    background-color: orange;
+    background-color: rgb(250, 188, 44);
     flex-wrap: nowrap;
 }
 .logo-img
 {
+    position: relative;
+
 }
 .logo-img img
 {
+    position: absolute;
+    top: 0;
+    right: -125px;
+
 }
 ul
 {
