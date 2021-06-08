@@ -1,3 +1,8 @@
+var panino = prompt("inventa il tuo panino")
+panino = panino.toUpperCase();
+document.getElementById("nomeBurger").innerHTML= panino
+
+
 var createSum = document.getElementById('somma-button');
 var result = document.getElementById('result-sum');
 var codSconto = document.getElementById('sconto')
@@ -13,7 +18,7 @@ createSum.addEventListener('click', function () {
  }
  var sale = burgerSale + resultSumInt;
  var scontoCodice = 6;
- var sconto = sale/100 *20
+ var sconto = sale/100 *25
  if (codSconto.value.length===scontoCodice) {
      result.innerHTML = parseInt(sale - sconto).toFixed(2)
     } else {
