@@ -2,13 +2,23 @@ nav
 {
     height: 100px;
     background-color: orange;
+    flex-wrap: nowrap;
 }
- form div , div  
+.logo-img
+{
+}
+.logo-img img
+{
+}
+ul
+{
+    list-style-type: none;
+}
+ ul li   
 {
     font-size: 28px;
-    text-align: center;
 }
-form div label{
+ul li label{
     font-size: 20px;
     color: brown;
 }
@@ -17,10 +27,7 @@ footer
     height: 100px;
     background-color: orchid;
 }
-main section
-{
-   
-}
+
 svg 
 {
     width: 70px;
@@ -29,6 +36,6 @@ svg
 #sconto
 {
     width: 70%;
-    background-color: olive;
+    background-color: rgb(234, 235, 175);
     border: none;
 }
