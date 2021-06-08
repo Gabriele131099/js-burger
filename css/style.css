@@ -1,9 +1,20 @@
+.container
+{
+    background-color: burlywood;
+}
+
+.sfondo-bianco
+{
+    background-color: white;
+}
 nav
 {
     height: 100px;
     background-color: rgb(250, 188, 44);
     flex-wrap: nowrap;
 }
+
+
 .logo-img
 {
     position: relative;
@@ -15,6 +26,12 @@ nav
     top: 0;
     right: -125px;
 
+}
+
+ul span
+{
+    font-size: 20px;
+    font-weight: 600;
 }
 ul
 {
@@ -42,6 +59,21 @@ svg
 #sconto
 {
     width: 70%;
-    background-color: rgb(234, 235, 175);
+    background-color:burlywood;
     border: none;
+    border-radius: 30px;
+    outline: none;
+}
+
+.bottoni-risultato
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bottoni-risultato button
+{
+    
 }
